@@ -11,3 +11,6 @@ git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh}/custom/plug
 git clone https://github.com/zsh-users/zsh-history-substring-search ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
+
+# Copy zshrc
+cp .zshrc ~/.zshrc

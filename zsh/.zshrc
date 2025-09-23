@@ -11,7 +11,6 @@ plugins=(
     docker
     asdf
     zsh-autosuggestions
-    zsh-completions 
     zsh-history-substring-search 
     zsh-syntax-highlighting
 )
@@ -22,3 +21,6 @@ source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Set zsh to default shell
+chsh -s $(which zsh)
